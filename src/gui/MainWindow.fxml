@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MainWindowController">
+   <center>
+      <VBox prefHeight="620.0" prefWidth="546.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="149.0" prefWidth="546.0">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="264.0">
+                     <children>
+                        <Text fx:id="programStatesTitle" strokeType="OUTSIDE" strokeWidth="0.0" text="                    ProgramStates" wrappingWidth="265.6708984375" />
+                        <ListView fx:id="programStates" onMouseClicked="#handleUpdateProgramState" prefHeight="200.0" prefWidth="200.0" />
+                     </children>
+                  </VBox>
+                  <GridPane prefHeight="200.0" prefWidth="283.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="87.0" minWidth="10.0" prefWidth="57.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="163.0" minWidth="10.0" prefWidth="155.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="93.0" minWidth="10.0" prefWidth="70.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="109.0" minHeight="10.0" prefHeight="97.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="119.0" minHeight="10.0" prefHeight="102.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="43.0" minHeight="1.0" prefHeight="1.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Button fx:id="ChooseExampleButton" mnemonicParsing="false" onAction="#handleChooseExample" prefHeight="31.0" prefWidth="157.0" text="Choose Example" GridPane.columnIndex="1" />
+                        <Button fx:id="RunOneStepButton" mnemonicParsing="false" onAction="#handleRunOneStep" prefHeight="31.0" prefWidth="160.0" text="Run one Step" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                     </children>
+                  </GridPane>
+               </children>
+            </HBox>
+            <HBox prefHeight="272.0" prefWidth="546.0">
+               <children>
+                  <GridPane prefHeight="260.0" prefWidth="560.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="267.0" minWidth="10.0" prefWidth="193.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="341.0" minWidth="10.0" prefWidth="198.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="341.0" minWidth="10.0" prefWidth="193.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="124.0" minHeight="10.0" prefHeight="31.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="229.0" minHeight="10.0" prefHeight="229.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <TableView fx:id="heapTable" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+                          <columns>
+                            <TableColumn fx:id="HeapKey" prefWidth="75.0" text="Key" />
+                            <TableColumn fx:id="HeapValue" prefWidth="104.0" text="Value" />
+                          </columns>
+                        </TableView>
+                        <TableView fx:id="FileTableTable" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                          <columns>
+                            <TableColumn fx:id="FileTableKey" prefWidth="75.0" text="Key" />
+                            <TableColumn fx:id="FileTableValue" prefWidth="105.0" text="Value" />
+                          </columns>
+                        </TableView>
+                        <ListView fx:id="OutputList" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="                 Heap" wrappingWidth="176.94384765625" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="                Output" wrappingWidth="188.6708984375" GridPane.columnIndex="1" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="              File Table" wrappingWidth="181.3291015625" GridPane.columnIndex="2" />
+                     </children>
+                  </GridPane>
+               </children>
+            </HBox>
+            <HBox prefHeight="224.0" prefWidth="546.0">
+               <children>
+                  <GridPane prefHeight="192.0" prefWidth="548.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="267.0" minWidth="10.0" prefWidth="190.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="378.0" minWidth="10.0" prefWidth="187.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="378.0" minWidth="10.0" prefWidth="183.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="91.0" minHeight="10.0" prefHeight="38.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="178.0" minHeight="10.0" prefHeight="178.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <TableView fx:id="SymbolTableTable" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+                          <columns>
+                            <TableColumn fx:id="SymbolTableKey" prefWidth="75.0" text="Key" />
+                            <TableColumn fx:id="SymbolTableValue" prefWidth="109.0" text="Value" />
+                          </columns>
+                        </TableView>
+                        <ListView fx:id="ExecutionStackList" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="            Symbol Table" wrappingWidth="186.2822265625" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="          Execution Stack" wrappingWidth="179.9052734375" GridPane.columnIndex="1" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="             LockTable" wrappingWidth="178.0205078125" GridPane.columnIndex="2" />
+                        <TableView fx:id="LockTableTable" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                          <columns>
+                            <TableColumn fx:id="LockTableKey" prefWidth="75.0" text="Key" />
+                            <TableColumn fx:id="LockTableValue" prefWidth="103.0" text="Value" />
+                          </columns>
+                        </TableView>
+                     </children>
+                  </GridPane>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

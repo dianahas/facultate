@@ -1,0 +1,25 @@
+Id: 
+1
+ExeStack: 
+ a=  3/ 0
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+

@@ -1,0 +1,174 @@
+Id: 
+1
+ExeStack: 
+{ a=  2- 2;{if (a) then  v= 2; else  v= 3;Print ( v)}}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+ a=  2- 2
+{if (a) then  v= 2; else  v= 3;Print ( v)}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+ a=  2- 2
+{if (a) then  v= 2; else  v= 3;Print ( v)}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+{if (a) then  v= 2; else  v= 3;Print ( v)}
+
+SymbolTable: 
+a-->0
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+{if (a) then  v= 2; else  v= 3;Print ( v)}
+
+SymbolTable: 
+a-->0
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+if (a) then  v= 2; else  v= 3
+Print ( v)
+
+SymbolTable: 
+a-->0
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+if (a) then  v= 2; else  v= 3
+Print ( v)
+
+SymbolTable: 
+a-->0
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+ v= 3
+Print ( v)
+
+SymbolTable: 
+a-->0
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+ v= 3
+Print ( v)
+
+SymbolTable: 
+a-->0
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+Print ( v)
+
+SymbolTable: 
+a-->0
+v-->3
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+Print ( v)
+
+SymbolTable: 
+a-->0
+v-->3
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+
+SymbolTable: 
+a-->0
+v-->3
+
+Output: 
+3
+
+FileTable
+
+Heap
+

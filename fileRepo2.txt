@@ -1,0 +1,144 @@
+Id: 
+5
+ExeStack: 
+{ a=   5* 3+ 2;{ b=  1+a;Print ( b)}}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+5
+ExeStack: 
+ a=   5* 3+ 2
+{ b=  1+a;Print ( b)}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+5
+ExeStack: 
+ a=   5* 3+ 2
+{ b=  1+a;Print ( b)}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+5
+ExeStack: 
+{ b=  1+a;Print ( b)}
+
+SymbolTable: 
+a-->17
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+5
+ExeStack: 
+{ b=  1+a;Print ( b)}
+
+SymbolTable: 
+a-->17
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+5
+ExeStack: 
+ b=  1+a
+Print ( b)
+
+SymbolTable: 
+a-->17
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+5
+ExeStack: 
+ b=  1+a
+Print ( b)
+
+SymbolTable: 
+a-->17
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+5
+ExeStack: 
+Print ( b)
+
+SymbolTable: 
+a-->17
+b-->18
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+5
+ExeStack: 
+Print ( b)
+
+SymbolTable: 
+a-->17
+b-->18
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+5
+ExeStack: 
+
+SymbolTable: 
+a-->17
+b-->18
+
+Output: 
+18
+
+FileTable
+
+Heap
+

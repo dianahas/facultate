@@ -1,0 +1,527 @@
+Id: 
+1
+ExeStack: 
+{Open: var_f;{Read: var_f;{Print ( var_c);{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}}}}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+Open: var_f
+{Read: var_f;{Print ( var_c);{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}}}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+Open: var_f
+{Read: var_f;{Print ( var_c);{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}}}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+{Read: var_f;{Print ( var_c);{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}}}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+{Read: var_f;{Print ( var_c);{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}}}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+Read: var_f
+{Print ( var_c);{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+Read: var_f
+{Print ( var_c);{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+{Print ( var_c);{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+{Print ( var_c);{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+Print ( var_c)
+{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+Print ( var_c)
+{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0)
+Close: var_f
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0)
+Close: var_f
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+Close: var_f
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+Close: var_f
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+{Open: var_f;{Read: var_f;{Print ( var_c);{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}}}}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+Open: var_f
+{Read: var_f;{Print ( var_c);{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}}}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+Open: var_f
+{Read: var_f;{Print ( var_c);{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}}}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+{Read: var_f;{Print ( var_c);{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}}}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+{Read: var_f;{Print ( var_c);{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}}}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+Read: var_f
+{Print ( var_c);{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+{Open: var_f;{Read: var_f;{Print ( var_c);{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}}}}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+Open: var_f
+{Read: var_f;{Print ( var_c);{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}}}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+Open: var_f
+{Read: var_f;{Print ( var_c);{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}}}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+{Read: var_f;{Print ( var_c);{if (var_c) then {Read: var_f;Print ( var_c)}; else Print (  0);Close: var_f}}}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+{{Open: test.in;Read: inFile};Print ( a)}
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+{Open: test.in;Read: inFile}
+Print ( a)
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+{Open: test.in;Read: inFile}
+Print ( a)
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+Open: test.in
+Read: inFile
+Print ( a)
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+Open: test.in
+Read: inFile
+Print ( a)
+
+SymbolTable: 
+
+Output: 
+
+FileTable
+
+Heap
+
+Id: 
+1
+ExeStack: 
+Read: inFile
+Print ( a)
+
+SymbolTable: 
+inFile-->1
+
+Output: 
+
+FileTable
+1-->test.in
+
+Heap
+
+Id: 
+1
+ExeStack: 
+Read: inFile
+Print ( a)
+
+SymbolTable: 
+inFile-->1
+
+Output: 
+
+FileTable
+1-->test.in
+
+Heap
+
+Id: 
+1
+ExeStack: 
+Print ( a)
+
+SymbolTable: 
+a-->50
+inFile-->1
+
+Output: 
+
+FileTable
+1-->test.in
+
+Heap
+
+Id: 
+1
+ExeStack: 
+Print ( a)
+
+SymbolTable: 
+a-->50
+inFile-->1
+
+Output: 
+
+FileTable
+1-->test.in
+
+Heap
+
+Id: 
+1
+ExeStack: 
+
+SymbolTable: 
+a-->50
+inFile-->1
+
+Output: 
+50
+
+FileTable
+1-->test.in
+
+Heap
+
