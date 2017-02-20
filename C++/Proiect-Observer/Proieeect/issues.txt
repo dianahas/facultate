@@ -1,0 +1,7 @@
+remove,closed,Bianca,ALabala
+add,closed,Bianca,Diana
+aaaaa,closed,Bianca,Diana
+addtt,closed,Bianca,Diana
+uuuuu,open,Bianca,-
+yyiyjykfd,closed,Bianca,Diana
+problema,closed,Bianca,Diana

@@ -1,0 +1,20 @@
+Execution Stack
+
+  ToyLanguageC.model.OpenFileStmt
+
+  ToyLanguageC.model.CompStmt
+
+
+
+Symbol Table
+
+
+
+File Table
+
+
+
+Output
+
+-------------------
+

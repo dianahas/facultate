@@ -1,0 +1,120 @@
+Execution Stack
+
+  ToyLanguageC.model.AssignStmt
+
+  ToyLanguageC.model.PrintStmt
+
+
+
+Symbol Table
+
+
+
+File Table
+
+
+
+Output
+
+-------------------
+
+Execution Stack
+
+  ToyLanguageC.model.PrintStmt
+
+
+
+Symbol Table
+
+  v --> 2
+
+
+
+File Table
+
+
+
+Output
+
+-------------------
+
+Execution Stack
+
+
+
+Symbol Table
+
+  v --> 2
+
+
+
+File Table
+
+
+
+Output
+
+  2
+
+-------------------
+
+Execution Stack
+
+  ToyLanguageC.model.AssignStmt
+
+  ToyLanguageC.model.PrintStmt
+
+
+
+Symbol Table
+
+
+
+File Table
+
+
+
+Output
+
+-------------------
+
+Execution Stack
+
+  ToyLanguageC.model.PrintStmt
+
+
+
+Symbol Table
+
+  v --> 2
+
+
+
+File Table
+
+
+
+Output
+
+-------------------
+
+Execution Stack
+
+
+
+Symbol Table
+
+  v --> 2
+
+
+
+File Table
+
+
+
+Output
+
+  2
+
+-------------------
+

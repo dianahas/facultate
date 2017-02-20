@@ -1,0 +1,146 @@
+Execution Stack
+
+  ToyLanguageC.model.AssignStmt
+
+  ToyLanguageC.model.CompStmt
+
+
+
+Symbol Table
+
+
+
+File Table
+
+
+
+Output
+
+-------------------
+
+Execution Stack
+
+  ToyLanguageC.model.CompStmt
+
+
+
+Symbol Table
+
+  a --> 17
+
+
+
+File Table
+
+
+
+Output
+
+-------------------
+
+Execution Stack
+
+  ToyLanguageC.model.AssignStmt
+
+  ToyLanguageC.model.PrintStmt
+
+
+
+Symbol Table
+
+  a --> 17
+
+
+
+File Table
+
+
+
+Output
+
+-------------------
+
+Execution Stack
+
+  ToyLanguageC.model.PrintStmt
+
+
+
+Symbol Table
+
+  a --> 17
+
+  b --> 18
+
+
+
+File Table
+
+
+
+Output
+
+-------------------
+
+Execution Stack
+
+
+
+Symbol Table
+
+  a --> 17
+
+  b --> 18
+
+
+
+File Table
+
+
+
+Output
+
+  18
+
+-------------------
+
+Execution Stack
+
+  ToyLanguageC.model.AssignStmt
+
+  ToyLanguageC.model.PrintStmt
+
+
+
+Symbol Table
+
+
+
+File Table
+
+
+
+Output
+
+-------------------
+
+Execution Stack
+
+  ToyLanguageC.model.AssignStmt
+
+  ToyLanguageC.model.PrintStmt
+
+
+
+Symbol Table
+
+
+
+File Table
+
+
+
+Output
+
+-------------------
+

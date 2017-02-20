@@ -1,0 +1,7 @@
+Bishon,Fifu,3,http://scms.machteamsoft.ro/uploads/photos/652x450/652x450_014280-bichon-maltez.jpg
+German Shepard,Didu,2,https://upload.wikimedia.org/wikipedia/commons/5/54/20110425_German_Shepherd_Dog_8473.jpg
+German Shepard,Siju,1,http://www.germanshepherdinformation.org/wp-content/uploads/2015/07/german-shepherd-wallpaper-attack-1675272252.jpg
+Beagle,Cuhi,2,http://www.yourpurebredpuppy.com/dogbreeds/photos-AB/beaglesf3.jpg
+Beagle,Tuti,4,https://s-media-cache-ak0.pinimg.com/736x/bc/1d/6a/bc1d6a3384b27a33828e9ee1cab5ed0d.jpg
+Bishon,Gufi,1,https://upload.wikimedia.org/wikipedia/commons/c/c5/Bichon_Frise.jpg
+Bishonii,Pufita,1,http://i1081.photobucket.com/albums/j354/bichonmaltese/pui-bichon-maltez-de-vanzare_zpsshio7tka.jpg

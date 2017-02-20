@@ -1,0 +1,6 @@
+D:\MAP\ToyLanguageC\ToyLanguageC\bin\Debug\ToyLanguageC.exe.config
+D:\MAP\ToyLanguageC\ToyLanguageC\bin\Debug\ToyLanguageC.exe
+D:\MAP\ToyLanguageC\ToyLanguageC\bin\Debug\ToyLanguageC.pdb
+D:\MAP\ToyLanguageC\ToyLanguageC\obj\Debug\ToyLanguageC.csprojResolveAssemblyReference.cache
+D:\MAP\ToyLanguageC\ToyLanguageC\obj\Debug\ToyLanguageC.exe
+D:\MAP\ToyLanguageC\ToyLanguageC\obj\Debug\ToyLanguageC.pdb
